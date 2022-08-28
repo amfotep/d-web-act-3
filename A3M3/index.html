@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        th, td {
+            padding: 1em;
+            text-align: center;
+        }
+
+        tfoot {
+            width: 100%;
+        }
+
+        .h2 {
+            color: red;
+        }
+
+        .t1-back-cont {
+            width: 60%;
+            height: 15em;
+            background-color: #ffdd00;
+        }
+
+        .t2-box-container-border {
+            width: 80%;
+            height: 7em;
+            background-color: rgb(156, 156, 156);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .t2-box-container-content {
+            width: 80%;
+            height: 60%;
+            background-color: #2B68ED;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .t2-box-container-padding {
+            width: 90%;
+            height: 70%;
+            background-color: #75ed2b;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .t2-box-container-margin {
+            width: 45%;
+            height: 9em;
+            background-color: rgb(225, 169, 0);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li{
+            margin: 2em 0;
+            cursor: pointer;
+            
+            padding: 1em;
+            border-radius: 5px;
+            transition: 0.2s;
+            border: 1px solid #000;
+        }
+
+        ul li:hover {
+            background-color: rgb(159, 159, 159);
+        }
+
+        h3 {
+            color: #2B68ED
+        }
+
+        h4 {
+            color: rgb(132, 224, 90)
+        }
+
+        p {
+            font-size: 1.5em;
+            background-color: #b2caff;
+            padding: 1em;
+            font-weight: bold;
+            color: rgb(51, 51, 51)
+        }
+
+        a {
+            text-decoration: none;
+            background-color: #1a8400;
+            padding: 0.5em;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.5em;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #2ad200;
+            color: #000;
+            font-weight: bold;
+        }
+
+        table {
+            border: 1px solid #000;
+            margin: 1em 0;
+            border-spacing: 0px;
+        }
+
+        tbody tr:hover {
+            background-color: rgba(187, 187, 187, 0.537);
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+
+        tfoot tr td{
+            background-color: #84abff;
+            border-top: 1px solid #000;
+        }
+
+        thead tr th{
+            background-color: #2B68ED;
+        }
+
+        fieldset {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+
+        fieldset label {
+            width: 90%;
+            text-align: center;
+        }
+
+        fieldset div {
+            display: flex;
+            flex-direction: column;
+            margin: 1em 0;
+        }
+
+        fieldset input[type=submit] {
+            width: 40%;
+            margin: 0 auto;
+            display: block;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h2>Tema I: Colores</h2>
+
+    <h2 class="h2">Este es mi primer texto</h2>
+    <h3>Este es mi segundo texto</h3>
+    <h4>Este es mi tercer texto</h4>
+
+    <div class="t1-back-cont"></div>
+
+    <h2>Tema II: Cajas</h2>
+
+    <div class="t2-box-container-margin">
+        MARGIN
+        <div class="t2-box-container-border">
+            BORDER
+            <div class="t2-box-container-padding">
+                PADDING
+                <div class="t2-box-container-content">CONTENT</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Tema III: Propiedades</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, nesciunt doloribus quod porro optio in.
+    </p>
+    <a href="https://www.youtube.com/watch?v=AjP8ub8wkDM">Ir al curso</a>
+    <img src="" alt="">
+    <ul>
+        <li>Que Cosas</li>
+        <li>Que tiene</li>
+        <li>La vida</li>
+    </ul>
+
+    <table >
+        <thead>
+            <tr>
+                <th>Tabla</th>
+                <th></th>
+                <th>Numero</th>
+                <th></th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>x</td>
+                <td>1</td>
+                <td>=</td>
+                <td>10</td>
+            </tr>
+    
+            <tr>
+                <td>10</td>
+                <td>x</td>
+                <td>2</td>
+                <td>=</td>
+                <td>20</td>
+            </tr>
+    
+            <tr>
+                <td>10</td>
+                <td>x</td>
+                <td>3</td>
+                <td>=</td>
+                <td>30</td>
+            </tr>
+    
+            <tr>
+                <td>10</td>
+                <td>x</td>
+                <td>4</td>
+                <td>=</td>
+                <td>40</td>
+            </tr>
+    
+    
+            <tr>
+                <td>10</td>
+                <td>x</td>
+                <td>5</td>
+                <td>=</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">La mejor tabla de multiplicar</td> 
+            </tr>
+        </tfoot>
+    </table>
+
+    <fieldset>
+        <legend>Crear nueva tabla</legend>
+        <form action="">
+            <div>
+                <label for="">Tabla: </label>
+                <input type="text">
+            </div>
+    
+            <div>
+                <label for="">Iteraciones: </label>
+                <input type="text">
+            </div>
+    
+            <input type="submit" value="Crear">
+        </form>
+    </fieldset>
+
+</body>
+</html>

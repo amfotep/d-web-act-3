@@ -1,0 +1,64 @@
+/* MAIN STYLES */
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display:flex; 
+    flex-direction:column;
+}
+
+.row {
+    display: grid;
+    width: 40%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.card {
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card button {
+    font-size: 1.5em;
+    border: none;
+    color: white;
+    background-color: brown;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+.card button:hover {
+    background-color: rgb(121, 30, 30);
+    font-weight: bold;
+    padding: 0.3em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
